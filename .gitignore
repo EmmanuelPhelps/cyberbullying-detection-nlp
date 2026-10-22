@@ -1,0 +1,25 @@
+
+# Dataset
+cyberbullying_tweets.csv
+
+# Python temporary files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+.env
+
+# Sensitive text exports
+results/*misclassified*.csv
+results/*error_examples*.csv
+results/*raw_tweets*.csv
+
+# Microsoft Word temporary files
+~$*.docx
+~WR*.tmp
+
+# Processed datasets containing tweet text
+results/cleaned_cyberbullying.csv
+results/cleaning_created_conflicts.csv
+results/excluded_conflicting_labels.csv
+results/misclassified_tweets.csv
